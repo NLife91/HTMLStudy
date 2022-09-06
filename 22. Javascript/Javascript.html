@@ -3,7 +3,7 @@
   <body>
     <p id="demo"></p>
 
-    <img id="myImage" src="pic_bulboff.gif" width="100" height="180" />
+    <img id="myImage" src="/Images/pic_bulboff.gif" width="100" height="180" />
     <p>
       <button type="button" onclick="light(1)">Light On</button>
       <button type="button" onclick="light(0)">Light Off</button>
@@ -18,9 +18,9 @@
       function light(sw) {
         var pic;
         if (sw == 0) {
-          pic = "pic_bulboff.gif";
+          pic = "/Images/pic_bulboff.gif";
         } else {
-          pic = "pic_bulbon.gif";
+          pic = "/Images/pic_bulbon.gif";
         }
         document.getElementById("myImage").src = pic;
       }
