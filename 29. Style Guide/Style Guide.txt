@@ -1,0 +1,98 @@
+1. Always Declare Document Type
+ <!DOCTYPE html>
+
+2. Use Lowercase Element Names
+ <body>
+   <p>paragraph.</p>
+ </body>
+
+3. Close All HTML Elements
+ <section>
+  <p></p>
+ </section>
+
+4. Use Lowercase Attribute Names
+ <a href=""> lower attr </a>
+
+5. Always Quote Attribute Values
+ - Must use quotes if the value contains spaces
+ <table class="striped">
+
+6. Always Specify alt, width, and height for Images
+ - the browser can reserve space for the image before loading
+ <img src="img.gif" alt="img" style="width:128px; height:128px" />
+
+7. Space and Equal Signs
+ - allow spaces around equal signs. but space-less is easier to read
+ <link rel="stylesheet" href="styles.css" />
+
+8. Avoid Long Code Lines
+
+9. Blank Lines and Indentation
+ - Do not add blank lines, spaces, or indentations without a reason.
+
+10. Never Skip the <title> Element
+ - title is used by search engine algorithms
+
+11. omitting <html> and <body>?
+ - error in older browsers
+ - crash on DOM and XML software
+
+12. Omitting <head>? No 
+ 
+13. Close Empty HTML Elements?
+ <meta charsert="utf-8" />
+ - /> is required in XML and XHTML.
+
+14. Add the lang Attribute
+ <html lang="en-us">
+
+15. Meta Data
+ - the language and the character encoding should be defined
+
+16. Setting The Viewport
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+17. HTML Comments
+ - single
+  <!-- a comment -->
+ - long comment
+  <!--
+    a long commemt
+    a long comment
+  -->
+
+18. Using Style Sheets
+ <link rel="stylesheet" href="styles.css">
+ p.intro {font-family:Verdana;font-size:16em;}
+ bodly {
+    background-color: lightgrey;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    font-size: 16em;
+    color: black;
+ }
+
+19. Loading JavaScript In HTML
+ <script src="myscript.js">
+
+20. Accessing HTML Elements with JavaScript
+ GetElementById("demo").innerHTML = "Hello";
+ - case-sensitive
+
+21. Use Lower Case File Names
+ Some web servers are case sensitive Other art not.
+ To avoid problems, always use lowercase file names.
+
+22. File Extensions
+ HTML files .html or .html
+ CSS files .css
+ JavaScript files .js
+
+23. Differences Between .htm and .html? No
+
+24. Default Filenames
+ not specify a filename (ex "www.home.com/") server adds a default filenames 
+ "index.html" or "index.htm" or "default.html" or "default.htm".
+
+ if specify a filename, must use the filename
+ 
